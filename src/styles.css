@@ -1,0 +1,215 @@
+body {
+  margin: 0px !important;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+.sideBar {
+  width: 30%;
+  height: 100vh;
+  background: #eee;
+}
+
+.invoiceContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.invoiceType {
+  position: absolute;
+  right: 44px;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.invoiceContent {
+  border: 0.5px solid #ccc;
+  height: 90%;
+  width: 90%;
+  align-self: center;
+}
+
+.firstInfo {
+  display: flex;
+  flex-direction: row;
+  /* height: 134px; */
+}
+
+.childInfo {
+  display: flex;
+  flex-direction: row;
+  height: 33.33%;
+}
+
+.infoLeftContainer {
+  width: 50%;
+  border: solid #ccc;
+  text-align: left;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 0.5px 0.5px 0px;
+}
+.infoRightContainer {
+  width: 50%;
+  border: solid #ccc;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 0px 0.5px 0px;
+}
+
+.smallLeftContainer {
+  width: 50%;
+  border: solid #ccc;
+  text-align: left;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 0.5px 0.5px 0px;
+}
+.smallRightContainer {
+  width: 50%;
+  border: solid #ccc;
+  padding: 2px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border-width: 0px 0px 0.5px 0px;
+}
+
+.fieldBox {
+  font-weight: 600;
+  margin-top: 2px;
+  min-height: 16px;
+  border: 0.5px solid #ccc;
+  padding-left: 2px;
+  font-size: 14px;
+}
+
+.fieldTitle {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.consigneeListItem {
+  cursor: pointer;
+  text-align: left;
+  padding: 10px;
+}
+
+.itemHeader {
+  display: flex;
+  border: solid #ccc;
+  height: 26px;
+  border-width: 0px 0px 0.5px 0px;
+}
+
+.itemList {
+  display: flex;
+  border: solid #ccc;
+  height: 340px;
+  border-width: 0px 0px 0.5px 0px;
+}
+
+.headerTitle {
+  border: solid #ccc;
+  border-width: 0px 0.5px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemData {
+  border: solid #ccc;
+  border-width: 0px 0.5px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-weight: normal;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.gstContainer {
+  position: relative;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  right: 8px;
+}
+
+.gstContainer2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.gstText {
+  margin-top: 6px;
+}
+
+.inWordsContainer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 4px;
+  height: 100px;
+}
+
+.footerContainer {
+  height: 70px;
+  display: flex;
+}
+
+.leftFooter {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightFooter {
+  width: 50%;
+  height: 100%;
+  border: solid #ccc;
+  border-width: 0.5px 0px 0px 0.5px;
+}
+
+.bank_details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
